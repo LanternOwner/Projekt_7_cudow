@@ -1,0 +1,45 @@
+img
+{
+    width:250px;
+    height:250px;
+}
+table
+{
+    border: 5px solid;
+    margin:auto;
+    border-color: black;
+
+}
+a.a1:hover{
+    filter:grayscale(80%); 
+}
+a.a2:hover{
+    filter:sepia(80%); 
+}
+a.a3:hover{
+    filter:saturate(200%); 
+}
+a.a4:hover{
+    filter:brightness(700%); 
+}
+a.a5:hover{
+    filter:blur(10px); 
+}
+a.a6:hover{
+    filter:contrast(50%); 
+}
+a.a7:hover{
+    filter:opacity(65%); 
+}
+body {
+    text-align: center;
+}
+div {
+    width: 900px;
+}
+footer {
+    font-family: 'Verdana', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+}
